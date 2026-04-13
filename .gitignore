@@ -1,0 +1,229 @@
+# =========================================================
+
+# ROOT .gitignore — Spring Boot Monorepo (Maven + Gradle)
+
+# =========================================================
+
+# =========================================================
+
+# OS FILES
+
+# =========================================================
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================================================
+
+# LOG FILES
+
+# =========================================================
+
+*.log
+logs/
+*.out
+*.err
+*.pid
+
+# =========================================================
+
+# ENV / CONFIG (DO NOT COMMIT SECRETS)
+
+# =========================================================
+
+.env
+.env.*
+*.local
+*.secret
+*.secrets
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+
+# =========================================================
+
+# JAVA / SPRING BOOT
+
+# =========================================================
+
+# Compiled files
+
+*.class
+
+# Packaged artifacts
+
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+
+.springBeans
+.springBeans
+
+# =========================================================
+
+# MAVEN
+
+# =========================================================
+
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+
+# Maven Wrapper (KEEP THESE)
+
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+
+# =========================================================
+
+# GRADLE
+
+# =========================================================
+
+**/.gradle/
+**/build/
+**/gradle-app.setting
+
+# Gradle Wrapper (KEEP THESE)
+
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# =========================================================
+
+# IDEs & EDITORS
+
+# =========================================================
+
+# IntelliJ / JetBrains
+
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# NetBeans
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================================================
+
+# TEST OUTPUT
+
+# =========================================================
+
+**/surefire-reports/
+**/failsafe-reports/
+**/test-output/
+
+# =========================================================
+
+# TEMP / CACHE
+
+# =========================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# =========================================================
+
+# DOCKER
+
+# =========================================================
+
+docker-compose.override.yml
+*.env.docker
+
+# =========================================================
+
+# NODE (if frontend exists in same repo)
+
+# =========================================================
+
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================================
+
+# COVERAGE / REPORTS
+
+# =========================================================
+
+coverage/
+*.lcov
+jacoco.exec
+
+# =========================================================
+
+# DATABASE / LOCAL FILES
+
+# =========================================================
+
+*.db
+*.sqlite
+*.h2.db
+*.mv.db
+
+# =========================================================
+
+# MISC
+
+# =========================================================
+
+*.bak
+*.backup
+*.old
+
+# =========================================================
+
+# OPTIONAL: FILE UPLOADS (if your app stores files locally)
+
+# =========================================================
+
+uploads/
+tmp/
