@@ -2,9 +2,9 @@ build:
   version: "2.0"
 
 accounts:
-  message: "Welcome to EazyBank accounts Webhook QA APIs "
+  message: "Welcome to EazyBank accounts QA APIs "
   contactDetails:
-    name: "Smitha Ray - QA Webhook Test"
+    name: "Smitha Ray - QA Test"
     email: "smitha@email.com"
   onCallSupport:
     - (666) 265-3765
